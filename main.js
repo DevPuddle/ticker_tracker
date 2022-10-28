@@ -17,7 +17,10 @@ function fetchIssues() {
         let statusColor = status == "Closed" ? 'label-success' :
             'label-info'
 
-        //issuesList.innerHTML += 
+        issuesList.innerHTML +=
+        '<div class="well>' +
+        '<h6>Issue ID:' + id + '</h6>' +
+        '<p><span class= "label ' +statusColor + ' ">' + status + '</span></p>'
     }
 }
 
