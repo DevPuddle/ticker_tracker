@@ -10,7 +10,10 @@
 <body onload="fetchIssues()">
 
     <section class="container">
-        <h1>Ticket Tracker for Demo</h1>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-4"><h1>Ticket Tracker for Demo</h1>
+            </div>
+        </div>
         <section class="jumbotron">
             <h3>Add New Issue:</h3>
             <form id="issueInputForm">
@@ -28,6 +31,7 @@
                         <option value="Low">Low</option>
                         <option value="Medium">Medium</option>
                         <option value="High" selected>High</option>
+                        <option value="Very High" selected>Very High</option>
                     </select>
                 </div>
                 <div class="form-group">
